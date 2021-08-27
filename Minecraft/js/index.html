@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="mine.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minecraft</title>
+</head>
+<body>
+    <div class="container">
+        <audio id="mySound" src="barking.mp3"></audio>
+        <div class="buttons">
+            <div class="buttons-top">
+                <button onclick="HandsUP()">Hands up</button>
+                <button onclick="HandsDown()">Hands down</button>
+                <button onclick="Blink()">Blink</button>
+                <button onclick="Heart()">Love</button>
+            </div>
+            <div class="buttons-down">
+                <button onclick="CreateDog()">Call the Dog</button>
+                <button onclick="BanishDog()" id="dog-button">Banish the Dog</button>
+            </div>
+        </div>
+        <div class="position">
+            <div class="dog-container">
+                <div class="dog-head">
+                    <div class="dog-ear1"></div>
+                    <div class="dog-ear2"></div>
+                    <div class="dog-face">
+                        <div class="dog-eye1"><div class="dog-pupil_1"></div></div>
+                        <div class="dog-eye2"><div class="dog-pupil_2"></div></div>
+                        <div class="dog-muzzle">
+                            <div class="dog-nose"></div>
+                            <div class="dog-mouse"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dog-legs">
+                    <div class="dog-body"></div>
+                    <div class="dog-leg"></div>
+                    <div class="dog-leg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-skin">
+            <div class="container-head">
+                <div class="head">
+                    <div class="hair"></div>
+                    <div class="bangs-container">
+                        <div class="bangs-left"></div>
+                        <div class="bangs-right"></div>
+                    </div>
+                    <div class="eyes-container">
+                        <div class="eyes">
+                            <div class="eye-left" id="eye_left">
+                                <div class="pupil-left"></div>
+                            </div>
+                            <div class="eye-right" id="eye_right">
+                                <div class="pupil-right" id="rpupil"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nose-container">
+                        <div class="nose"></div>
+                    </div>
+                    <div class="lips-container">
+                        <div class="lips-up"></div>
+                        <div class="lips-up-center"></div>
+                        <div class="lips-up"></div>
+                    </div>
+                    <div class="lips-container">
+                        <div class="lips-down"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-breastandshoulders">
+                <div class="shoulders-left" id="lsho">
+
+                </div>
+                <div class="breast">
+                    <div class="neck">
+                        <div class="neck-up"></div>
+                        <div class="neck-center"></div>
+                        <div class="neck-down"></div>
+                    </div>
+                </div>
+                <div class="shoulders-right">
+
+                </div>
+            </div>
+            <div class="container-armsandbody">
+                <div class="left-arm" id="left_arm">
+
+                </div>
+                <div class="body">
+                    <div class="heart-container">
+                        <div class="heart" id="heart"></div>
+                    </div>
+                </div>
+                <div class="right-arm" id="right_arm">
+
+                </div>
+            </div>
+            <div class="container-leg">
+                <div class="leg1">
+
+                </div>
+                <div class="leg2">
+                    <div class="square2"></div>
+                    <div class="square"></div>
+                </div>
+            </div>
+            <div class="container-foot">
+                <div class="foot1">
+
+                </div>
+                <div class="foot2">
+
+                </div>
+            </div>
+        </div>
+        <div class="chat-container">
+            <div class="chat">
+                <input type="text" id="field" value=""> <input type="button" value="&#x2191;" id="submit">
+                <div id="mytext"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>   
+    <script src="js/script.js"></script>
+</body>
+</html>

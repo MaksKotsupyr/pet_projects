@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 1300px;
+}
+#mySound{
+    display: none;
+}
+.buttons{
+    height: 100vh;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #000;
+}
+.buttons-top{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#dog-button{
+    position: relative;
+    padding: 6px 16px;
+    font-size: 13px;
+    margin: 0 0;
+}   
+button{
+    padding: 14px 30px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.container-skin{
+    min-width: 70%;  
+}
+.position{
+    height: 100vh;
+    width: 0%;
+    position: relative;
+    display: none;
+}
+.dog-container{
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    bottom: 7px;
+    right: -250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.dog-head{
+    margin-top: 15px;
+    width: 130px;
+    height: 130px;
+    background: #864c5d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dog-ear1{
+    height: 35px;
+    width: 40px;
+    background: linear-gradient(to top, #927442 50%, #000);
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+.dog-ear2{
+    height: 35px;
+    width: 40px;
+    background: linear-gradient(to top, #927442 50%, #000);
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: -12px;
+    right: 20px;
+}
+.dog-face{
+    width: 110px;
+    height: 90px;
+    background: #927442;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.dog-eye1{
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px 10px 5px 5px;
+    top: 37px;
+    left: 35px;
+}
+.dog-pupil_1{
+    height: 15px;
+    width: 15px;
+    background: #000;
+    border-radius: 50% 5px 5px 5px;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+}
+.dog-pupil_2{
+    height: 15px;
+    width: 15px;
+    background: #000;
+    border-radius: 5px 50% 5px 5px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.dog-eye2{
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px 10px 5px 5px;
+    top: 37px;
+    right: 35px;
+}
+.dog-muzzle{
+    height: 40px;
+    width: 50px;
+    background: #393636;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+.dog-nose{
+    height: 10px;
+    width: 15px;
+    background: rgb(132, 78, 96);
+    position: absolute;
+    left: 35%;
+}
+.dog-mouse{
+    height: 10px;
+    width: 50px;
+    background: #000;
+    position: absolute;
+    bottom: -3px;
+}
+.dog-legs{
+    width: 150px;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.dog-body{
+    width: 48px;
+    height: 40px;
+    background: linear-gradient(to bottom, rgb(61, 57, 57), #af915d) ;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+}
+.dog-leg{
+    width: 25px;
+    height: 100%;
+    background: linear-gradient(to bottom, #927442, #000) ;
+    margin: 0 4px;
+}
+.container-head{
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    height: 200px;
+    width: 220px;
+    background-color: rgb(197, 160, 141);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.hair{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(66, 44, 23);
+}
+.bangs-container{
+    display: flex;
+    justify-content: space-between;
+}
+.bangs-left{
+    height: 25px;
+    width: 30px;
+    background-color: rgb(66, 44, 23);
+}
+.bangs-right{
+    height: 25px;
+    width: 30px;
+    background-color: rgb(66, 44, 23);
+}
+.eyes-container{
+    display: flex;
+    justify-content: center;
+}
+.eyes{
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+}
+.eye-left{
+    height: 25px;
+    width: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+.eye-right{
+    height: 25px;
+    width: 60px;
+    background-color: #fff;
+}
+.pupil-left{
+    height: 25px;
+    width: 30px;
+    background-color: rgb(56,42,94);
+}
+.pupil-right{
+    height: 25px;
+    width: 30px;
+    background-color: rgb(56,42,94);
+}
+.nose-container{
+    display: flex;
+    justify-content: center;
+}
+.nose{
+    height: 25px;
+    width: 40px;
+    background-color: rgb(73,43,33);
+}
+.lips-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.lips-up{
+    height: 25px;
+    width: 30px;
+    background-color: rgb(46,20,7);   
+}
+.lips-up-center{
+    height: 25px;
+    width: 40px;
+}
+.lips-down{
+    height: 25px;
+    width: 100px;
+    background-color: rgb(46,20,7);
+}
+.container-breastandshoulders{
+    display: flex;
+    justify-content: center; 
+}
+.shoulders-left{
+    width: 115px;
+    height: 100px;
+    background-color: rgb(0,120,119);
+}
+.breast{
+    width: 220px;
+    height: 100px;
+    background-color: rgb(0,120,119);
+    display: flex;
+    justify-content: center;
+}
+.neck{
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.neck-up{
+    width: 100px;
+    height: 15px;
+    background-color: rgb(197, 160, 141);
+}
+.neck-center{
+    width: 70px;
+    height: 15px;
+    background-color: rgb(197, 160, 141);
+}
+.neck-down{
+    width: 40px;
+    height: 15px;
+    background-color: rgb(197, 160, 141);
+}
+.shoulders-right{
+    width: 115px;
+    height: 100px;
+    background-color: rgb(0,120,119);
+}
+.container-armsandbody{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.left-arm{
+    width: 115px;
+    height: 170px;
+    background-color: rgb(197, 160, 141);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.body{
+    width: 220px;
+    height: 171px;
+    background-color: rgb(0,120,119);  
+    display: flex;
+    justify-content: flex-end;
+}
+.heart-container{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    transform: rotate(-45deg);
+    margin: 0px 50px 0 0;
+}
+.heart{
+    background-color: rgb(0,120,119);
+    height: 25px;
+    position: relative;
+    top: 0;
+    width: 25px;
+    animation: beat 1.6s infinite ease-in;
+    transform: rotate(-45deg);
+    cursor: pointer; 
+    display: none;      
+}
+.heart:before,
+.heart:after{
+    content: '';
+    background-color: inherit;
+    border-radius: 50%;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+}
+.heart:before{
+    top: -12.5px;
+    left: 0;
+}
+.heart:after{
+    left: 12.5px;
+    top: 0px;
+}
+.right-arm{
+    width: 115px;
+    height: 170px;
+    background-color: rgb(197, 160, 141);
+}
+.container-leg{
+    display: flex;
+    justify-content: center;
+}
+.leg1{
+    width: 109px;
+    height: 230px;
+    background-color: rgb(49,39,112);
+    border-right: 1px solid #000;
+}
+.leg2{
+    width: 110px;
+    height: 230px;
+    background-color: rgb(49,39,112);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.square2{
+    height: 15px;
+    width: 50px;
+    background-color: rgb(0,120,119);    
+}
+.square{
+    height: 15px;
+    width: 30px;
+    background-color: rgb(0,120,119);    
+}
+.container-foot{
+    display: flex;
+    justify-content: center;
+}
+.foot1{
+    width: 109px;
+    height: 45px;
+    background-color: rgb(74,72,73);
+    border-right: 1px solid #000;
+}
+.foot2{
+    width: 110px;
+    height: 45px;
+    background-color: rgb(74,72,73);
+} 
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.5);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.chat-container{
+    height: 100vh;
+    width: 314px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: -236px;
+}
+.chat{
+    width: 100%;
+    height: 100%;
+    background: green;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#field{
+    margin: 10px;
+    font-size: 22px;
+    padding: 5px;
+    width: 237px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+#submit{
+    position: absolute;
+    height: 37px;
+    width: 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 23px;
+    font-weight: bold;
+    border: 2px solid lightblue;
+    background: green;
+    right: 10px;
+    bottom: 10px;
+}
+#submit:hover{
+    background: lightblue;
+}
+#mytext{
+    height: 90%;
+    width: 94%;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#MyMessage{
+    margin: 5px 10px 5px 15px;
+    padding: 9px 19px;
+    background: green;
+    border-radius: 10px;
+    position: relative;
+    font-size: 20px;
+}
+#MyMessage::before{
+    content: '';
+    height: 12px;
+    width: 12px;
+    background: green;
+    position: absolute;
+    top: 45%;
+    left: -4px;
+    transform: rotate(45deg);
+}

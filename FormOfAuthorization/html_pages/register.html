@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="../php_register/add.php" method="POST">
+            <div class="arrow">
+                <a href="../index.html"><img src="../img/arrow2.png" alt="arrow"></a>
+            </div>
+            <div class="register-form">
+                <img src="../img/user.png" alt="Member" class="icon-user">
+            </div>
+            <div class="name">
+                <input type="text" name="first_name" placeholder="First Name" value="" id="firstname" required>
+                <input type="text" name="last_name" placeholder="Last Name" value="" id="lastname" required>
+            </div>
+            <div class="information">
+                <label for="reg-username"><img src="../img/member.png" class="reg-user" alt="username"></label>
+                <input id="reg-username" required name="username" placeholder="Username" type="text" value="">
+            </div>
+            <div class="information">
+                <label for="email"><img src="../img/letter.jpg" class="email" alt="email"></label>
+                <input id="email" required name="email" placeholder="E-mail" type="email" value="">
+            </div>
+            <div class="information">
+                <label for="phonenumber"><img src="../img/phone.png" class="phonenumber" alt="number"></label>
+                <input id="phonenumber" required name="phone_num" placeholder="Phone number" type="text" value="">
+            </div>
+            <div class="information">
+                <label for="password1"><img src="../img/open.png" class="password1" alt="password"></label>
+                <input id="password1" required name="password" placeholder="Password" type="password" value="">
+            </div>
+            <div class="information">
+                <label for="passwordconfirm"><img src="../img/close.png" class="passwordconfirm" alt="password"></label>
+                <input id="passwordconfirm" required name="password2" placeholder="Confirm password" type="password" value="">
+            </div>
+            <div class="reg">
+                <button id="btn-reg" name="submit">Sign up!</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

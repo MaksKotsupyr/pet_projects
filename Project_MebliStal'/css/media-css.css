@@ -1,0 +1,1098 @@
+@media (min-width: 2250px) {
+    .navigation{
+        height: 190px;
+    }
+    .navigation-box{
+        height: 180px;
+    }
+    .logo-block img{
+        height: 170px;
+    }
+    .navigation-link{
+        font-size: 30px;
+    }
+    .navigation-item{
+        margin: 0 30px;
+    }
+    .header-name h1{
+        font-size: 180px;
+    }
+    .header-what h3, .header-btn a, .gallery-logo-name span, .btn:hover{
+        font-size: 30px;
+    }
+    .gallery-title .section, .advantages-title-2, .production-title span{
+        font-size: 100px;
+    }
+    .gallery-logo-name i, .advantages-title-1{
+        font-size: 40px;
+    }
+    .btn{
+        font-size: 22px;
+    }
+    .column, .content{
+        max-width: 540px;
+        height: 420px;
+    }
+    .column{
+        margin: 8px 0px;
+    }
+    .content > img{
+        height: 325px;
+    }
+    .content > h4{
+        font-size: 25px;
+    }
+    .advantages-block{
+        height: 500px;
+    }
+    .advantages-item{
+        font-size: 28px;
+    }
+    .production-img-1, .production-img-2{
+        height: 70%;
+        width: 90%;
+        font-size: 40px;
+    }
+    .production-about-tree span, .production-about-metal span{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .stage-title{
+        font-size: 100px;
+    }
+    .contacts-title{
+        font-size: 100px;
+    }
+    .section_1 ul li, .section_2 ul li{
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .section_1 ul li i{
+        font-size: 26px;
+    }
+    .section_3 a i{
+        font-size: 80px;
+    }
+    .footer{
+        font-size: 20px;
+    }
+    .footer img{
+        height: 100px;
+    }
+}
+@media (min-width: 1440px) and (max-width: 2250px){
+    .header-name h1{
+        font-size: 90px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .content > img{
+        height: 235px;
+    }
+    .stage-block{
+        height: 350px;
+    }
+    .stage-title{
+        font-size: 60px;
+    }
+    .stage i{
+        font-size: 80px;
+    }
+    .stage span{
+        font-size: 20px;
+    }
+    .advantages-items-title{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1439px){
+    .navigation{
+        padding: 0 30px;
+    }
+    .logo-block img{
+        height: 80px;
+    }
+    .navigation-link{
+        font-size: 14px;
+    }
+    .header-block{
+        left: 10%;
+        right: 10%;
+    }
+    .header-name h1{
+        font-size: 80px;
+    }
+    .header-what h3{
+        font-size: 13px;
+    }
+    .header-btn a{
+        font-size: 14px;
+    }
+    .gallery-title-block{
+        padding: 0 30px;
+    }
+    .gallery-title .section{
+        font-size: 45px;
+    }
+    .gallery-logo-name span{
+        font-size: 16px;
+    }
+    .btn{
+        width: 13%;
+        height: 55px;
+    }
+    .column{
+        width: 33%;
+        height: fit-content;
+    }
+    .column{
+        margin: 8px 0px;
+    }
+    .content > img{
+        height: 245px;
+    }
+    .content > h4{
+        font-size: 16px;
+    }
+    .advantages-block{
+        height: 400px;
+    }
+    .advantages-title{
+        width: 60%;
+    }
+    .advantages-items-block{
+        width: 40%;
+    }
+    .advantages-items{
+        width: 80%;
+    }
+    .advantages-item{
+        font-size: 18px;
+    }
+    .production-title{
+        padding: 0 0 0 30px;
+    }
+    .production-title span{
+        font-size: 45px;
+    }
+    .production-description{
+        display: flex;
+        justify-content: space-around;
+    }
+    .production-about-tree, .production-about-metal{
+        width: 49%;
+        padding: 0;
+    }
+    .production-img-1, .production-img-2{
+        width: 400px;
+        height: 250px;
+    }
+    .production-img-1::before, .production-img-2::before{
+        background-attachment: scroll;
+    }
+    .stage-block{
+        height: 350px;
+    }
+    .stage-title{
+        font-size: 45px;
+    }
+    .stage i{
+        font-size: 80px;
+    }
+    .stage span{
+        font-size: 17px;
+    }
+    .stage-line{
+        width: 40px;
+    }
+    #ad-block-2>.advantages-items-block{
+        width: 53%;
+    }
+    #ad-block-2>.advantages-title{
+        width: 47%;
+    }
+    #ad-block-2>.advantages-title>.advantages-center{
+        width: 95%;
+        height: 82%;
+    }
+    .advantages-items-title{
+        width: 90%;
+        font-size: 25px;
+    }
+    .advantages-item{
+        font-size: 16px;
+        text-align: center;
+    }
+    .advantages-title-2{
+        font-size: 55px;
+    }
+    .contacts-title{
+        font-size: 45px;
+    }
+    .address-block{
+        width: 70%;
+    }
+    .map-block{
+        width: 30%;
+    }
+    .map{
+        height: 94%;
+        width: 94%;
+    }
+    .section_2{
+        margin: 0 0 0 30px;
+    }
+    .address-text{
+        width: 100%;
+        padding: 20px 5px;
+    }
+    .section_1 ul li, .section_2 ul li{
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .logo-block img{
+        height: 90px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .navigation-block{
+        display: none;
+    }
+    .header-block{
+        top: 30%;
+        bottom: 30%;
+        left: 5%;
+        right: 5%;
+    }
+    .header-name h1{
+        font-size: 75px;
+    }
+    .header-what h3{
+        font-size: 12px;
+    }
+    .header-btn{
+        font-size: 14px;
+    }
+    .gallery-title-block{
+        padding: 0 10px;
+    }
+    #myBtnContainer{
+        display: none;
+    }
+    .gallery-title .section{
+        font-size: 45px;
+    }
+    .gallery-logo-name span {
+        font-size: 16px;
+    }
+    .column{
+        width: 49%;
+        height: fit-content;
+    }
+    .column{
+        margin: 8px 0px;
+    }
+    .content > img{
+        margin: 0 15px;
+        width: 90% !important;
+        height: 245px;
+    }
+    .content > h4{
+        font-size: 16px;
+    }
+    .advantages-block{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .advantages-title, .advantages-items-block{
+        width: 100%;
+    }
+    .advantages-center{
+        height: 270px;
+        width: 70%;
+        margin: 15px 0;
+    }
+    .advantages-item{
+        width: 100%;
+    }
+    .advantages-item-1{
+        margin-left: 30px;
+    }
+    .advantages-item-2{
+        margin-left: 45px;
+    }
+    .advantages-item-3{
+        margin-left: 60px;
+    }
+    .advantages-item-4{
+        margin-left: 75px;
+    }
+    .advantages-item-5{
+        margin-left: 90px;
+    }
+    .production{
+        height: fit-content;
+    }
+    .production-title{
+        height: fit-content;
+        padding: 0 0 0 30px;
+    }
+    .production-title span{
+        font-size: 45px;
+    }
+    .production-description{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .production-about-tree, .production-about-metal{
+        align-items: center;
+        width: 90%;
+        padding: 0;
+    }
+    .production-about-tree span{
+        text-align: center;
+    }
+    .production-about-metal{
+        margin: 15px 0 0 0;
+        flex-direction: column-reverse !important;
+    }
+    .production-about-metal span{
+        text-align: center;
+    }
+    .production-img-1, .production-img-2{
+        width: 500px;
+        height: 350px;
+    }
+    .production-img-1::before, .production-img-2::before{
+        background-attachment: scroll;
+    }
+    .stage-block{
+        height: 250px;
+    }
+    .stage-title{
+        font-size: 35px;
+    }
+    .stage i{
+        font-size: 60px;
+    }
+    .stage span{
+        font-size: 14px;
+    }
+    .stage-line{
+        width: 30px;
+    }
+    #ad-block-2 .advantages-items{
+        display: none;
+    }
+    .advantages-items-title{
+        margin: 30px 10px;
+        font-size: 22px;
+    }
+    .contacts-title{
+        padding: 0 10px;
+        font-size: 45px;
+    }
+    .section_1 ul li{
+        font-size: 15px;
+    }
+    .section_1 ul li i{
+        font-size: 16px;
+    }
+    .section_2{
+        display: none;
+    }
+    .map{
+        margin-top: 30px;
+        height: 70%;
+    }
+    .section_3 a i{
+        font-size: 45px;
+        margin: 15px 20px;
+    }
+}
+@media (min-width: 425px) and (max-width: 767px){
+    .logo-block img{
+        height: 70px;
+    }
+    .navigation{
+        padding: 0 10px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .navigation-block{
+        display: none;
+    }
+    .header-block{
+        top: 30%;
+        bottom: 30%;
+        left: 0%;
+        right: 0%;
+        padding: 0;
+    }
+    .header-name h1{
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .header-what h3{
+        text-align: center;
+        padding: 0 40px;
+        font-size: 12px;
+    }
+    .header-btn{
+        margin-top: 50px !important;
+        font-size: 12px;
+    }
+    .gallery-title-block{
+        padding: 0 10px;
+    }
+    .gallery-title .section{
+        font-size: 35px;
+    }
+    #myBtnContainer{
+        display: none;
+    }
+    .gallery-title .section{
+        font-size: 40px;
+        border: 0;
+    }
+    .gallery-logo-name span {
+        display: none;
+    }
+    .column{
+        width: 100%;
+        height: fit-content;
+    }
+    .content{
+        padding: 0 15px;
+    }
+    .content > img{
+        margin: 0 15px;
+        width: 90% !important;
+        height: 265px;
+    }
+    .content > h4{
+        font-size: 16px;
+    }
+    .advantages-block{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .advantages-title, .advantages-items-block{
+        width: 100%;
+    }
+    .advantages-title-2{
+        font-size: 45px;
+    }
+    .advantages-center{
+        height: 270px;
+        width: 95%;
+        margin: 15px 0;
+    }
+    .advantages-item{
+        width: 90%;
+    }
+    .advantages-item-1{
+        margin-left: 40px;
+    }
+    .advantages-item-2{
+        margin-left: 40px;
+    }
+    .advantages-item-3{
+        margin-left: 40px;
+    }
+    .advantages-item-4{
+        margin-left: 40px;
+    }
+    .advantages-item-5{
+        margin-left: 40px;
+    }
+    .production{
+        height: fit-content;
+    }
+    .production-title{
+        height: fit-content;
+        padding: 0 0 0 10px;
+    }
+    .production-title span{
+        font-size: 30px;
+        border: 0;
+    }
+    .production-description{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .production-about-tree, .production-about-metal{
+        align-items: center;
+        width: 90%;
+        padding: 0;
+    }
+    .production-about-tree span{
+        text-align: center;
+    }
+    .production-about-metal{
+        margin: 15px 0 0 0;
+        flex-direction: column-reverse !important;
+    }
+    .production-about-metal span{
+        text-align: center;
+    }
+    .production-img-1, .production-img-2{
+        width: 100%;
+        height: 300px;
+        font-size: 20px;
+    }
+    .production-img-1::before, .production-img-2::before{
+        background-attachment: scroll;
+    }
+    .stage-block{
+        height: 220px;
+    }
+    .stage-title{
+        font-size: 35px;
+    }
+    .stage i{
+        font-size: 40px;
+    }
+    .stage span{
+        font-size: 12px;
+    }
+    .stage-line{
+        width: 10px;
+        margin: 0 20px;
+    }
+    #ad-block-2 .advantages-items{
+        display: none;
+    }
+    .advantages-items-title{
+        margin: 30px 10px;
+        font-size: 22px;
+    }
+    .contacts-info{
+        flex-direction: column;
+    }
+    .address-block, .map-block{
+        width: 100%;
+    }
+    .contacts-title{
+        padding: 0 10px;
+        font-size: 30px;
+    }
+    .contacts-title span{
+        border: 0;
+    }
+    .section_1 ul li, .section_2 ul li{
+        font-size: 16px;
+    }
+    .section_2 ul li:first-child{
+        text-transform: initial;
+    }
+    .section_1 ul li i{
+        font-size: 18px;
+    }
+    .section_2{
+        margin-top: 30px;
+    }
+    .address-text{
+        padding: 30px 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .map{
+        display: none;
+    }
+    .section_3{
+        height: fit-content;
+        width: fit-content;
+    }
+    .section_3 a i{
+        font-size: 28px;
+        margin: 15px 30px;
+    }
+    .footer{
+        justify-content: space-between;
+    }
+    .advantages-items{
+        width: 80%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px){
+    .logo-block img{
+        height: 70px;
+    }
+    .navigation{
+        padding: 0 20px 0 10px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .navigation-block{
+        display: none;
+    }
+    .header-block{
+        top: 30%;
+        bottom: 30%;
+        left: 0%;
+        right: 0%;
+        padding: 0;
+    }
+    .header-name h1{
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    .header-what h3{
+        text-align: center;
+        padding: 0 30px;
+        font-size: 10px;
+    }
+    .header-btn{
+        margin-top: 50px !important;
+        font-size: 10px;
+    }
+    .gallery-title-block{
+        padding: 0 10px;
+    }
+    .gallery-logo-block{
+        display: none;
+    }
+    .gallery-title .section{
+        font-size: 30px;
+    }
+    #myBtnContainer{
+        display: none;
+    }
+    .gallery-title .section{
+        font-size: 40px;
+        border: 0;
+    }
+    .gallery-logo-name span {
+        display: none;
+    }
+    .column{
+        width: 100%;
+        height: fit-content;
+    }
+    .content{
+        height: 320px;
+        padding: 0 15px;
+    }
+    .content > img{
+        margin: 0 15px;
+        width: 90% !important;
+        height: 225px;
+    }
+    .content > h4{
+        font-size: 16px;
+    }
+    .advantages-block{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .advantages-title, .advantages-items-block{
+        width: 100%;
+    }
+    .advantages-title-2{
+        font-size: 45px;
+    }
+    .advantages-center{
+        height: 270px;
+        width: 95%;
+        margin: 15px 0;
+    }
+    .advantages-item{
+        width: 90%;
+    }
+    .advantages-item-1{
+        margin-left: 40px;
+    }
+    .advantages-item-2{
+        margin-left: 40px;
+    }
+    .advantages-item-3{
+        margin-left: 40px;
+    }
+    .advantages-item-4{
+        margin-left: 40px;
+    }
+    .advantages-item-5{
+        margin-left: 40px;
+    }
+    .production{
+        height: fit-content;
+    }
+    .production-title{
+        height: fit-content;
+        padding: 0 0 0 10px;
+    }
+    .production-title span{
+        font-size: 20px;
+        border: 0;
+    }
+    .production-description{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .production-about-tree, .production-about-metal{
+        align-items: center;
+        width: 90%;
+        padding: 0;
+    }
+    .production-about-tree span{
+        text-align: center;
+    }
+    .production-about-metal{
+        margin: 15px 0 0 0;
+        flex-direction: column-reverse !important;
+    }
+    .production-about-metal span{
+        text-align: center;
+    }
+    .production-img-1, .production-img-2{
+        width: 100%;
+        height: 300px;
+        font-size: 20px;
+    }
+    .production-img-1::before, .production-img-2::before{
+        background-attachment: scroll;
+    }
+    .stage-block{
+        height: 220px;
+    }
+    .stage-title{
+        font-size: 35px;
+    }
+    .stage i{
+        font-size: 40px;
+    }
+    .stage span{
+        font-size: 12px;
+    }
+    .stage-line{
+        width: 0px;
+        margin: 0 0px;
+    }
+    .step-1, .step-2, .step-3{
+        margin: 0 10px;
+    }
+    #ad-block-2 .advantages-items{
+        display: none;
+    }
+    .advantages-items-title{
+        margin: 30px 10px;
+        font-size: 22px;
+    }
+    .contacts-info{
+        flex-direction: column;
+    }
+    .address-block, .map-block{
+        width: 100%;
+    }
+    .contacts-title{
+        padding: 0 10px;
+        font-size: 30px;
+    }
+    .contacts-title span{
+        border: 0;
+    }
+    .section_1 ul li, .section_2 ul li{
+        font-size: 16px;
+    }
+    .section_2 ul li:first-child{
+        text-transform: initial;
+    }
+    .section_1 ul li i{
+        font-size: 18px;
+    }
+    .section_2{
+        margin-top: 30px;
+    }
+    .address-text{
+        padding: 30px 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .map{
+        display: none;
+    }
+    .section_3{
+        height: fit-content;
+        width: fit-content;
+    }
+    .section_3 a i{
+        font-size: 28px;
+        margin: 15px 30px;
+    }
+    .footer{
+        justify-content: space-between;
+    }
+    .advantages-items{
+        width: 80%;
+    }
+}
+@media (min-width: 320px) and (max-width: 374px){
+    .logo-block img{
+        height: 70px;
+    }
+    .navigation{
+        padding: 0 60px 0 10px;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .navigation-block{
+        display: none;
+    }
+    .header-block{
+        top: 30%;
+        bottom: 30%;
+        left: 0%;
+        right: 0%;
+        padding: 0;
+    }
+    .header-name h1{
+        font-size: 55px;
+        letter-spacing: 10px;
+    }
+    .header-what h3{
+        text-align: center;
+        padding: 0 30px;
+        font-size: 12px;
+    }
+    .header-btn{
+        margin-top: 50px !important;
+        font-size: 12px;
+    }
+    .gallery-title-block{
+        padding: 0 10px;
+    }
+    .gallery-logo-block{
+        display: none;
+    }
+    #myBtnContainer{
+        display: none;
+    }
+    .gallery-title .section{
+        font-size: 25px;
+        border: 0;
+    }
+    .gallery-logo-name span {
+        display: none;
+    }
+    .column{
+        width: 100%;
+        height: fit-content;
+    }
+    .content{
+        height: 320px;
+        padding: 0 10px;
+    }
+    .content > img{
+        margin: 0 15px;
+        width: 90% !important;
+        height: 215px;
+    }
+    .content > h4{
+        font-size: 16px;
+    }
+    .advantages-block{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .advantages-title, .advantages-items-block{
+        width: 100%;
+    }
+    .advantages-title-1{
+        font-size: 20px;
+    }
+    .advantages-title-2{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    #ad-title-2{
+        display: block;
+    }
+    .advantages-title-2:nth-last-child(1){
+        display: none;
+    }
+    #tit-2{
+        display: block;
+        text-align: center;
+    }
+    .advantages-center{
+        height: 250px;
+        width: 99%;
+        margin: 15px 0;
+    }
+    .advantages-item{
+        width: 90%;
+        font-size: 17px;
+    }
+    .advantages-items{
+        width: 80%;
+    }
+    .advantages-item-1{
+        margin-left: 40px;
+    }
+    .advantages-item-2{
+        margin-left: 40px;
+    }
+    .advantages-item-3{
+        margin-left: 40px;
+    }
+    .advantages-item-4{
+        margin-left: 40px;
+    }
+    .advantages-item-5{
+        margin-left: 40px;
+    }
+    .production{
+        height: fit-content;
+    }
+    .production-title{
+        height: fit-content;
+        padding: 0 0 0 10px;
+    }
+    .production-title span{
+        width: 350px;
+        font-size: 20px;
+        border: 0;
+    }
+    .production-description{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .production-about-tree, .production-about-metal{
+        align-items: center;
+        width: 99%;
+        padding: 0;
+    }
+    .production-about-tree span{
+        text-align: center;
+    }
+    .production-about-metal{
+        margin: 15px 0 0 0;
+        flex-direction: column-reverse !important;
+    }
+    .production-about-metal span{
+        text-align: center;
+    }
+    .production-img-1, .production-img-2{
+        width: 100%;
+        height: 270px;
+        font-size: 20px;
+    }
+    .production-img-1::before, .production-img-2::before{
+        background-attachment: scroll;
+    }
+    .stage-block{
+        height: fit-content;
+    }
+    .stage-title{
+        font-size: 35px;
+    }
+    .stage i{
+        font-size: 40px;
+    }
+    .stage span{
+        font-size: 12px;
+    }
+    .stage-line{
+        width: 0px;
+        margin: 0 0px;
+    }
+    .stage-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .step-1, .step-2, .step-3{
+        margin: 0 10px;
+    }
+    #ad-block-2 .advantages-items{
+        display: none;
+    }
+    .advantages-items-title{
+        margin: 30px 10px;
+        font-size: 22px;
+    }
+    .contacts-info{
+        flex-direction: column;
+    }
+    .address-block, .map-block{
+        width: 100%;
+    }
+    .contacts-title{
+        padding: 0 10px;
+        font-size: 25px;
+    }
+    .contacts-title span{
+        border: 0;
+    }
+    .section_1 ul li, .section_2 ul li{
+        font-size: 14px;
+    }
+    .section_2 ul li:first-child{
+        text-transform: initial;
+    }
+    .section_1 ul li i{
+        font-size: 15px;
+    }
+    .section_2{
+        margin-top: 50px;
+    }
+    .address-text{
+        width: 100%;
+        padding: 30px 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .map{
+        display: none;
+    }
+    .section_3{
+        height: fit-content;
+        width: fit-content;
+    }
+    .section_3 a i{
+        font-size: 28px;
+        margin: 15px 30px;
+    }
+    .footer{
+        justify-content: space-between;
+    }
+    .footer img{
+        height: 50px;
+    }
+    .footer>div>span{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <form action="../php_register/login.php" method="POST">
+    <div class="place">
+        <div class="container__login">
+            <div class="arrow">
+                <a href="../index.html"><img src="../img/arrow.png" alt="arrow"></a>
+            </div>
+            <div class="login-icon-box">
+                <img src="../img/member.png" alt="Member" class="login-icon">
+            </div>
+            <div class="username">
+                <label for="Name"><img src="../img/member.png" class="user" alt="user"></label>
+                <input  type="text" name="username" id="Name" placeholder="Username">
+            </div>
+            <div class="pass-word">
+                <label for="Key"><img src="../img/key.png" class="password" alt="pass"></label>
+                <input type="password" name="pass_word" id="Key" placeholder="Password">
+            </div>
+            <div class="forget">
+                <a href="#">Forget Password?</a>
+            </div>
+            <div class="submit">
+                <button class="login" id="login-btn" name="login-btn">Login</button>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

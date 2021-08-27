@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato';
+	margin: 0;
+}
+
+h1 {
+	letter-spacing: 4px;
+	border: 2px solid #000;
+	padding: 10px 60px;
+	background: linear-gradient(to right, rgb(195, 190, 238), rgb(243, 243, 149));
+	border-radius: 10px;
+}
+
+.poke-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1200px;
+}
+
+.pokemon {
+	border-radius: 20px;
+	box-shadow: 0 2px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	text-align: center;
+	height: 280px;
+	width: 180px;
+    position: relative;
+}
+
+.card{
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.6 ease;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.front{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+	transform: rotateY(180deg);
+	border-radius: 20px;
+}
+
+.stats{
+	margin: 4px 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'rubik';
+}
+
+.stats_title{
+	font-weight: bold;
+	font-family: 'rubik';
+	margin: 10px 0;
+	letter-spacing: 3px;
+	font-size: 17px;
+}
+
+.pokemon .img-container {
+	background-color: #ffffff;
+	border-radius: 50%;
+	margin: 10px 20px;
+	width: 140px;
+	height: 140px;
+}
+
+.pokemon .img-container img {
+	margin-top: 10px;
+	max-width: 90%;
+}
+
+.pokemon .info {
+	margin-top: 10px;
+}
+
+.pokemon .number {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 13px;
+	padding: 5px 5px;
+}
+
+.pokemon .name {
+	margin: 15px 0 5px;
+}
+
+.type{
+	font-size: 16px;
+}

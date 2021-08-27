@@ -1,0 +1,266 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#second_page, #third_page, #fourth_page{
+    display: none;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    width: 380px;
+    height: 560px;
+    background: linear-gradient(45deg, rgb(152, 54, 123) 50%, #9198e5) ;    
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(152, 54, 123);
+    position: relative;
+}
+.form-icon{
+    border-radius: 20px 20px 0 0;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.icon{
+    height: 170px;
+    border-radius: 50%;
+    border: 4px solid rgb(152, 54, 123);
+}
+.form-buttons{
+    height: 45%;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    margin: 40px 0 10px 0;
+}
+.login a{
+    padding: 10px 73px; 
+    text-decoration: none;
+    color: #fff;
+}
+.login, .register{
+    width: 200px;
+    padding: 10px 0;
+    font-weight: bold;
+    background-color: rgb(220, 220, 4);
+    font-size: 17px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.register{
+    background-color: #fff;
+    text-align: center; 
+    color: rgb(220, 220, 4);
+}
+.register a{
+    padding: 10px 36px;
+    text-decoration: none;
+    color: rgb(152, 54, 123);
+}
+.login:hover, .register:hover{
+    background-color: #000;
+}
+.register:hover{
+    color: #fff;
+}
+.register a:hover{
+    color: #ffffff;
+}
+.place{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__login{
+    position: relative;
+    width: 360px;
+    height: 380px;
+    background: linear-gradient(45deg, rgb(152, 54, 123) 50%, #9198e5) ;    
+    background-size: contain;
+    opacity: 0.9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(152, 54, 123);
+}
+.arrow img{
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+.login-icon-box{
+    border-radius: 20px 20px 0 0;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-icon{
+    border-radius: 50%;
+    width: 120px;
+    height: 115px;
+}
+.user, .password{
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+    border: 5px solid rgb(193, 80, 159);
+}
+.username, .pass-word{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pass-word{
+    margin-top: 10px;
+}
+#Name, #Key{
+    margin-left: 15px;
+    width: 200px;
+    font-size: 21px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    padding: 5px;
+    font-weight: bold;
+}
+.forget{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 20px;
+    width: 87%;
+}
+.forget a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit .login:hover{
+    background-color: rgb(220, 220, 4);
+    color: #000;
+}
+.register-form{
+    display: flex;
+    justify-content: center;
+}
+.icon-user{
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid rgb(152, 54, 123);
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.name input{
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 0px;
+    font-size: 17px;
+    width: 160px;
+    margin: 0 5px;
+    text-align: center;
+}
+.information{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-user, .email, .phonenumber, .password1, .passwordconfirm{
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+    border: 5px solid rgb(193, 80, 159);
+}
+#reg-username, #email, #phonenumber, #password1, #passwordconfirm{
+    margin-left: 15px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+}
+#btn-reg{
+    margin: 18px 0 0 0;
+    width: 200px;
+    padding: 10px 0px;
+    font-weight: bold;
+    background-color: rgb(220, 220, 4);
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none; 
+}
+.reg a{ 
+    padding: 10px 66px;
+}
+#btn-reg:hover{
+    color: #000;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#discription-1,#discription-2{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+#discription-2{
+    border: 2px solid #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    max-width: fit-content;
+    height: fit-content;
+}
+.Logout{
+    display: flex;
+    justify-content: left;
+    padding: 0 20px;
+}
+.Logout a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #fff;
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.Logout a:hover{
+    color: #000;
+    background-color: #fff;
+}

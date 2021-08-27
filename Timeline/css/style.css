@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e6e4e4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1300px;
+}
+.header{
+    padding: 20px 0;
+    color: #514d4d;
+    text-align: center;
+}
+.box{
+    position: relative;
+    height: 1000px;
+    max-width: 1300px;
+}
+.line{
+    position: absolute;
+    width: 3px;
+    height: 900px;
+    top: 60px;
+    left: 50.2%;
+    background-color: #65bcbe;
+}
+.center-spot{
+    font-size: 13px;
+    position: absolute;
+    background-color: #9d9da7;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-weight: bold;
+    padding: 8px 28px;
+    border-radius: 8px;
+    border: 4px solid #d9d9da;
+}
+#spot-1{
+    left: 46.5%;
+    top: 2%;
+}
+#spot-2{
+    left: 46.6%;
+    top: 30%;
+    font-size: 15px;
+}
+#spot-3{
+    left: 45.8%;
+    bottom: 0;
+}
+.dot{
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 4px solid #d9d9da;
+    background-color: #65bcbe;
+    left: 49.7%;
+}
+#dot-1{
+    top: 14%;
+}
+#dot-2{
+    top: 24%;
+}
+#dot-3{
+    top: 39%;
+}
+#dot-4{
+    top: 50%;
+}
+#dot-5{
+    top: 65%;
+}
+#dot-6{
+    top: 76%;
+}
+#dot-1::after, #dot-3::after, #dot-5::after{
+    position: absolute;
+    width: max-content;
+    font-size: 14px;
+    color: #9d9da7;
+    font-family: "Proxima Nova";
+    top: -5px;
+    right: 20px;
+}
+#dot-1::after{
+    content: '08 Feb 2014';
+}
+#dot-3::after{
+    content: '28 Dec 2014';
+}
+#dot-5::after{
+    content: '16 Dec 2013';
+}
+#dot-2::after, #dot-4::after, #dot-6::after{
+    position: absolute;
+    width: max-content;
+    font-size: 14px;
+    color: #9d9da7;
+    font-family: "Proxima Nova";
+    top: -5px;
+    left: 20px;
+}
+#dot-2::after{
+    content: '02 Jan 2014';
+}
+#dot-4::after{
+    content: '20 Dec 2013';
+}
+#dot-6::after{
+    content: '02 Dec 2013';
+}
+.quote{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 260px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding-left: 60px;
+    border: 0;
+}
+.quote h3{
+    font-size: 17px;
+    color: #6f6f6f;
+    font-family: "Proxima Nova";
+    font-weight: bold;
+}
+.quote span{
+    font-size: 15px;
+    color: #9d9da7;
+    font-family: "Proxima Nova";
+}
+#quote-1{
+    top: 11.2%;
+    left: 52.5%;
+}
+#quote-3{
+    left: 52.5%;
+    top: 36.2%;
+}
+#quote-5{
+    left: 52.5%;
+    top: 62.3%;
+}
+#quote-2{
+    left: 23.5%;
+    top: 21.3%;
+}
+#quote-4{
+    left: 23.5%;
+    top: 47.3%;
+}
+#quote-6{
+    left: 23.5%;
+    top: 73.2%;
+}
+#quote-2:after,#quote-4:after,#quote-6:after{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    right: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+#quote-1:after,#quote-3:after,#quote-5:after{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    left: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.img{
+    position: relative;
+}
+.img img{
+    height: 40px;
+    position: absolute;
+    left: -50px;
+}
+#bottom{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    border: 0;
+    bottom: -13%;
+    left: 36%;
+}
+#bottom h3{
+    font-size: 19px;
+    color: #6f6f6f;
+    font-family: "Proxima Nova";
+    font-weight: bold;
+}
+#bottom span{
+    font-size: 17px;
+    color: #9d9da7;
+    font-family: "Proxima Nova";
+}
+#bottom::after{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    left: 46%;
+    top: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+}

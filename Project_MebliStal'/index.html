@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="./fontawesome-free-5.13.1-web/css/all.css" rel="stylesheet">
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/log.png" type="image/x-icon">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lightslider.css">
+    <link rel="stylesheet" href="./css/media-css.css">
+    <title>Меблі Стиль</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation flex-center-center">
+            <div class="logo-block text-color">
+                <a href="#" class="text-decoration">
+                    <img src="./img/log-2.4.png" alt="Логотип" class="logo-img">
+                    <span class="logo-scroll"><img src="./img/log-2.4.png" alt="Logo"></span>
+                </a>
+            </div>
+            <div class="navigation-block">
+                <ul class="navigation-box flex-center-center">
+                    <li class="navigation-item">
+                        <a class="navigation-link text-color" href="#" data-scroll-nav="0">Головна</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link text-color" href="#" data-scroll-nav="1">Каталог</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link text-color" href="#" data-scroll-nav="2">Виробництво</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link text-color" href="#" data-scroll-nav="3">Контакти</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button">
+              <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+        </nav>
+        <header class="header" data-scroll-index="0">
+            <div id="particles" class="particles">
+                <div class="header-block flex-center-center flex-direction">                   
+                    <div class="header-name text-color text-align-center">
+                        <h1>Меблі Стиль</h1>
+                    </div>
+                    <div class="header-what text-color text-align-center">
+                        <h3>У наших меблях ми поєднуємо холодний метал та тепле дерево</h3>
+                    </div>
+                    <div class="header-btn">
+                        <a href="#" data-scroll-nav="1" class="text-color text-decoration">
+                            <span>Переглянути</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </header>        
+        
+        <div class="gallery-block flex" data-scroll-index="1">
+            <div class="gallery-title-block flex-center-center">
+                <div class="gallery-title flex-center-center">
+                    <span class="section uppercase text-color">
+                        Каталог
+                    </span>
+                </div>
+                <div class="gallery-logo-block">
+                    <div class="gallery-logo-name flex-center-center text-color">
+                        <span>Ознайомитись з продукцією</span><i class="fas fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>  
+            <div class="gallery-items">
+                <div class="main">
+                    <div id="myBtnContainer">
+                      <button class="btn active" onclick="filterSelection('all')"> Переглянути все</button>
+                      <button class="btn" onclick="filterSelection('sh')"> Столи журнальні</button>
+                      <button class="btn" onclick="filterSelection('ob')"> Столи обідні</button>
+                      <button class="btn" onclick="filterSelection('of')"> Столи офісні</button>
+                      <button class="btn" onclick="filterSelection('dec')"> Декор</button>
+                      <button class="btn" onclick="filterSelection('st')"> Стелаж</button>
+                      <button class="btn" onclick="filterSelection('s_bar')"> Барні стільці</button>
+                      <button class="btn" onclick="filterSelection('mb')"> Меблі в передпокій</button>
+                      <button class="btn" onclick="filterSelection('od_for')"> Стійки для одягу</button>
+                      <button class="btn" onclick="filterSelection('kr')"> Крісла</button>
+                      <button class="btn" onclick="filterSelection('li')"> Ліжка</button>
+                      <button class="btn" onclick="filterSelection('duv')"> Дивани</button>
+                      <button class="btn" onclick="filterSelection('opr')"> Опори-ніжки</button>              
+                    </div>
+                    
+                    <!-- Portfolio Gallery Grid -->
+                    <div class="row">
+                      <!-- Столи журнальні -->
+                      <div class="column sh">
+                        <div class="content">
+                          <img src="./img/gallery/sh_1.png" alt="Столи журнальні" style="width:100%">
+                          <h4>Столик журнальний #1</h4>
+                          <p>1100x500х470 труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column sh">
+                        <div class="content">
+                        <img src="./img/gallery/sh_2.png" alt="Столи журнальні" style="width:100%">
+                          <h4>Столик журнальний #2</h4>
+                          <p>1100x500х470 труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column sh">
+                        <div class="content">
+                        <img src="./img/gallery/sh_3.png" alt="Столи журнальні" style="width:100%">
+                          <h4>Столик журнальний #3</h4>
+                          <p>1200x550х400 труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column sh">
+                        <div class="content">
+                          <img src="./img/gallery/sh_4.png" alt="Столи журнальні" style="width:100%">
+                          <h4>Столик журнальний #4</h4>
+                          <p>1200x550х400  труба 40х20</p>
+                        </div>
+                      </div>
+                      <!-- Столи обідні -->
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_1.png" alt="Столи обідні" style="width:100%">
+                          <h4>Стіл обідній #1</h4>
+                          <p>1600х900х750  труба 80х80</p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_2.png" alt="Столи обідні" style="width:100%">
+                          <h4>Стіл обідній круглий #1</h4>
+                          <p>800х800х750 труба 30х20</p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_3.png" alt="Столи обідні" style="width:100%">
+                          <h4>Стіл обідній #2</h4>
+                          <p>1600х900х750  труба 40х40</p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_4.png" alt="Столи обідні" style="width:100%">
+                          <h4>Столик лофт</h4>
+                          <p>700x600х750 </p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_5.png" alt="Столи обідні" style="width:100%">
+                          <h4>Стіл обідній #3</h4>
+                          <p>1600х900х750  труба 50х50</p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_6.png" alt="Столи обідні" style="width:100%">
+                          <h4>Стіл обідній #4</h4>
+                          <p>1600х900х750  труба 50х25</p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_7.png" alt="Столи обідні" style="width:100%">
+                          <h4>Стіл обідній круглий #2</h4>
+                          <p>800х800х750 труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_8.png" alt="Столи обідні" style="width:100%">
+                          <h4>Столик круглий на опорі</h4>
+                          <p>600x600х750</p>
+                        </div>
+                      </div>
+                      <div class="column ob">
+                        <div class="content">
+                        <img src="./img/gallery/ob_9.png" alt="Столи обідні" style="width:100%">
+                          <h4 >Столик квадратний на опорі</h4>
+                          <p>700x600х750 труба 60х60</p>
+                        </div>
+                      </div>
+                      <!-- Столи офісні -->
+                      <div class="column of">
+                        <div class="content">
+                          <img src="./img/gallery/of_1.png" alt="Столи офісні" style="width:100%">
+                          <h4>Стіл офісний #1 </h4>
+                          <p>1400х600х1450х750 труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column of">
+                        <div class="content">
+                          <img src="./img/gallery/of_2.png" alt="Столи офісні" style="width:100%">
+                          <h4>Стіл офісний #2</h4>
+                          <p>1700х700х766</p>
+                        </div>
+                      </div>
+                      <div class="column of">
+                        <div class="content">
+                          <img src="./img/gallery/of_3.png" alt="Столи офісні" style="width:100%">
+                          <h4>Стіл офісний #3</h4>
+                          <p>1500х610х820</p>
+                        </div>
+                      </div>
+                      <!-- Стелаж -->
+                      <div class="column st">
+                        <div class="content">
+                          <img src="./img/gallery/st_1.png" alt="Стелаж" style="width:100%">
+                          <h4>Стелаж #1</h4>
+                          <p>600х400х2000</p>
+                        </div>
+                      </div>
+                      <div class="column st">
+                        <div class="content">
+                          <img src="./img/gallery/st_2.png" alt="Стелаж" style="width:100%">
+                          <h4>Стелаж #2</h4>
+                          <p>1400х300х2000</p>
+                        </div>
+                      </div>
+                      <div class="column st">
+                        <div class="content">
+                          <img src="./img/gallery/st_3.png" alt="Стелаж" style="width:100%">
+                          <h4>Стелаж #3</h4>
+                          <p>1400х400х2000</p>
+                        </div>
+                      </div>
+                      <!-- Барні стільці -->
+                      <div class="column s_bar">
+                        <div class="content">
+                          <img src="./img/gallery/s_bar_1.png" alt="Барні стільці" style="width:100%">
+                          <h4>Барний стільчик #1</h4>
+                          <p>320x320x1050  труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column s_bar">
+                        <div class="content">
+                          <img src="./img/gallery/s_bar_2.png" alt="Барні стільці" style="width:100%">
+                          <h4>Барний стільчик #2</h4>
+                          <p>320x320x1250 труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column s_bar">
+                        <div class="content">
+                          <img src="./img/gallery/s_bar_3.png" alt="Барні стільці" style="width:100%">
+                          <h4>Барний табурет #1</h4>
+                          <p>350x350x800  труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column s_bar">
+                        <div class="content">
+                          <img src="./img/gallery/s_bar_4.png" alt="Барні стільці" style="width:100%">
+                          <h4>Барний табурет круглий</h4>
+                          <p>320x320x800 труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column s_bar">
+                        <div class="content">
+                          <img src="./img/gallery/s_bar_5.png" alt="Барні стільці" style="width:100%">
+                          <h4>Барний табурет #2</h4>
+                          <p>320x320x800 труба 25х25</p>
+                        </div>
+                      </div>
+                      <!-- Меблі в передпокій -->
+                      <div class="column mb">
+                        <div class="content">
+                          <img src="./img/gallery/pr_1.png" alt="Меблі в передпокій" style="width:100%">
+                          <h4>Консоль #1</h4>
+                          <p>800х400х950</p>
+                        </div>
+                      </div>
+                      <div class="column mb">
+                        <div class="content">
+                          <img src="./img/gallery/pr_2.png" alt="Меблі в передпокій" style="width:100%">
+                          <h4>Консоль-стелаж</h4>
+                          <p>800х350х950</p>
+                        </div>
+                      </div>
+                      <div class="column mb">
+                        <div class="content">
+                          <img src="./img/gallery/pr_3.png" alt="Меблі в передпокій" style="width:100%">
+                          <h4>Лавка в прихожу</h4>
+                          <p>1200х300х500</p>
+                        </div>
+                      </div>
+                      <div class="column mb">
+                        <div class="content">
+                          <img src="./img/gallery/pr_4.png" alt="Меблі в передпокій" style="width:100%">
+                          <h4>Консоль #2</h4>
+                          <p>800х250х950</p>
+                        </div>
+                      </div>
+                      <!-- Стійки для одягу -->
+                      <div class="column od_for">
+                        <div class="content">
+                        <img src="./img/gallery/st_od_1.png" alt="Стійки для одягу " style="width:100%">
+                          <h4>Стійка для одягу #1</h4>
+                          <p>1600х1100х370</p>
+                        </div>
+                      </div>
+                      <div class="column od_for">
+                        <div class="content">
+                        <img src="./img/gallery/st_od_2.png" alt="Стійки для одягу " style="width:100%">
+                          <h4>Стійка для одягу #2</h4>
+                          <p>1600х1100х370</p>
+                        </div>
+                      </div>
+                      <!-- Крісла -->
+                      <div class="column kr">
+                        <div class="content">
+                          <img src="./img/gallery/kr_1.png" alt="Крісла" style="width:100%">
+                          <h4>Крісло мяке #1</h4>
+                          <p>800x850x700 труба 60х30</p>
+                        </div>
+                      </div>
+                      <div class="column kr">
+                        <div class="content">
+                          <img src="./img/gallery/kr_2.png" alt="Крісла" style="width:100%">
+                          <h4>Крісло мяке #2</h4>
+                          <p>750x700х700 труба 20х20</p>
+                        </div>
+                      </div>
+                      <div class="column kr">
+                        <div class="content">
+                          <img src="./img/gallery/kr_3.png" alt="Крісла" style="width:100%">
+                          <h4>Крісло мяке #3</h4>
+                          <p>750x800х700 </p>
+                        </div>
+                      </div>
+                      <div class="column kr">
+                        <div class="content">
+                          <img src="./img/gallery/kr_4.png" alt="Крісла" style="width:100%">
+                          <h4>Табурет</h4>
+                          <p>350x350x470  труба 25х25</p>
+                        </div>
+                      </div>
+                      <div class="column kr">
+                        <div class="content">
+                          <img src="./img/gallery/kr_5.png" alt="Крісла" style="width:100%">
+                          <h4>Пуф мякий</h4>
+                          <p>400х400х600</p>
+                        </div>
+                      </div>
+                      <div class="column kr">
+                        <div class="content">
+                          <img src="./img/gallery/kr_6.png" alt="Крісла" style="width:100%">
+                          <h4>Пуф</h4>
+                          <p>500х500х500</p>
+                        </div>
+                      </div>
+                      <!-- Дивани -->
+                      <div class="column duv">
+                        <div class="content">
+                          <img src="./img/gallery/duv_1.png" alt="Дивани" style="width:100%">
+                          <h4>Диван #1</h4>
+                          <p>2310x850х700 </p>
+                        </div>
+                      </div>
+                      <div class="column duv">
+                        <div class="content">
+                          <img src="./img/gallery/duv_2.png" alt="Дивани" style="width:100%">
+                          <h4>Диван #2</h4>
+                          <p>1550x850х700 </p>
+                        </div>
+                      </div>
+                      <div class="column duv">
+                        <div class="content">
+                          <img src="./img/gallery/duv_3.png" alt="Дивани" style="width:100%">
+                          <h4>Диван #3</h4>
+                          <p>1500x800х700 </p>
+                        </div>
+                      </div>
+                      <div class="column duv">
+                        <div class="content">
+                          <img src="./img/gallery/duv_4.png" alt="Дивани" style="width:100%">
+                          <h4>Диван #4</h4>
+                          <p>2500х830х700</p>
+                        </div>
+                      </div>
+                      <!-- Декор -->
+                      <div class="column dec">
+                        <div class="content">
+                        <img src="./img/gallery/dec_1.png" alt="Декор" style="width:100%">
+                          <h4>Підставка для миски</h4>
+                          <p>420х200х300</p>
+                        </div>
+                      </div>
+                      <div class="column dec">
+                        <div class="content">
+                        <img src="./img/gallery/dec_2.png" alt="Декор" style="width:100%">
+                          <h4>Підставка для миски</h4>
+                          <p>420х200х200</p>
+                        </div>
+                      </div>
+                      <div class="column dec">
+                        <div class="content">
+                          <img src="./img/gallery/dec_3.png" alt="Декор" style="width:100%">
+                          <h4>Поличка</h4>
+                          <p>1200х340х420</p>
+                        </div>
+                      </div>
+                      <div class="column dec">
+                        <div class="content">
+                        <img src="./img/gallery/dec_4.png" alt="Декор" style="width:100%">
+                          <h4>Підставка для вазонів</h4>
+                          <p>400х400х1200</p>
+                        </div>
+                      </div>
+                      <!-- Ніжки-опори -->
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_1.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №1</h4>
+                          <p>Ш 600 В 710</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_2.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №2</h4>
+                          <p>Висота 710 труба 80х40</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_3.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №3</h4>
+                          <p>Висота 710 труба 60х40</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_4.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №4</h4>
+                          <p>Висота 710 труба 70х70</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_5.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №5</h4>
+                          <p>Висота 710 труба 80х80</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_6.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №6</h4>
+                          <p>Висота 710 труба 60х60</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_7.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №7</h4>
+                          <p>Висота 710 труба 60х30</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_8.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №8</h4>
+                          <p>Висота 710 труба 60х60</p>
+                        </div>
+                      </div>
+                      <div class="column opr">
+                        <div class="content">
+                          <img src="./img/gallery/opr_9.png" alt="Ніжки-опори" style="width:100%">
+                          <h4>Ніжка-опора №9</h4>
+                          <p>Висота 710 труба 60</p>
+                        </div>
+                      </div>
+                      <!-- Ліжка -->
+                        <div class="column li">
+                            <div class="content">
+                                <img src="./img/gallery/li_1.png" alt="Ліжка" style="width:100%">
+                                <h4>Ліжко двохспальне LD4 каркас</h4>
+                                <p>2080x1600х800х300 </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+        <div class="advantages-block flex" >
+            <div class="advantages-title flex-center-center">
+                <div class="advantages-center flex-center-center flex-direction">
+                    <span class="advantages-title-1 text-color">Наш пріоритет</span>
+                    <span class="advantages-title-2 text-color" id="tit-2">Якість<br> =<br> Ціна</span>
+                    <span class="advantages-title-2 text-color">Якість = Ціна</span>
+                </div>
+            </div>
+            <div class="advantages-items-block flex-center-center">
+                <ul class="advantages-items">
+                    <li class="advantages-item advantages-item-1 text-color">Пропонуємо великий асортимент</li>
+                    <li class="advantages-item advantages-item-2 text-color">Виготовляємо під замовлення</li>
+                    <li class="advantages-item advantages-item-3 text-color">Створюємо 3D моделі замовлень</li>
+                    <li class="advantages-item advantages-item-4 text-color">Використовуємо тільки найкращі матеріали</li>
+                    <li class="advantages-item advantages-item-5 text-color">Виконуємо замовлення максимально швидко</li>
+                </ul>
+            </div>
+        </div>
+        <div class="production flex flex-direction" data-scroll-index="2" >
+            <div class="production-title uppercase text-color ">
+                <span>Виробництво</span>
+            </div>
+            <div class="production-description flex">
+                <div class="production-about-tree flex-center-center flex-direction">
+                    <div class="production-img-1 text-color flex-center-center uppercase">Дерево</div>
+                    <span class="text-color">Ми використовуємо пресовані плити: МДФ,ДСП та натуральне дерево: бук, дуб, ясен, горіх.
+                        Натуральне дерево ми покриваємо спеціальними засобами, що забезпечують надійність, довговічність та безпечність
+                        (як для навколишнього середовища, так і для маленьких дітей).</span>
+                </div>
+                <div class="production-about-metal flex-center-center flex-direction">
+                    <span class="text-color">У свою чергу з металів ми використовуємо тонкостінний метал, який ідеально підходить
+                        для використання у меблях, оскільки він поєднує в собі жорсткість, надійність та легкість. Метал ми покриваємо 
+                        якісними порошковими фарбами та запікаємо у печах при 180 градусах. Метал стає ще довговічнішим, міцнішим, стійким
+                        до царапин, але залишається безпечним.</span>
+                    <div class="production-img-2 text-color flex-center-center uppercase">Метал </div>
+                </div>
+            </div>
+        </div>
+        <div class="stage-block flex-center-center flex-direction">
+          <div class="stage-title uppercase text-color">
+              Етапи роботи
+          </div>
+          <div class="stage-items flex-center-center">
+              <div class="stage step-1 ">
+                  <i class="fas fa-clipboard"></i>
+                  <span class="uppercase">оформлення </span>
+              </div>
+              <div class="stage-line"></div>
+              <div class="stage step-2 ">
+                  <i class="fas fa-hammer"></i>
+                  <span class="uppercase">виготовлення</span>
+              </div>
+              <div class="stage-line"></div>
+              <div class="stage step-3 ">
+                  <i class="fas fa-truck"></i>
+                  <span class="uppercase">доставка</span>
+              </div>
+          </div>
+      </div>
+        <div class="advantages-block flex " id="ad-block-2">
+            <div class="advantages-items-block flex-center-center flex-direction">
+                <ul class="advantages-items">
+                    <li class="advantages-item text-color">Наші майстри беруться за будь-який рівень складності</li>
+                    <li class="advantages-item text-color">Працюємо, як зі стандартними, так і з індивідуальними розмірами</li>
+                    <li class="advantages-item text-color">Співпрацюємо з іншими виробниками</li>
+                </ul>
+                <div class="advantages-items-title uppercase text-color">Ми надаємо звичним речам нового вигляду</div>
+            </div>
+            <div class="advantages-title flex-center-center">
+                <div class="advantages-center flex-center-center flex-direction">
+                    <div class="advantages-spans">
+                        <span class="advantages-title-2 text-color flex flex-direction flex-center-center">Швидкість</span>
+                        <span class="advantages-title-2 text-color flex flex-direction flex-center-center">Якість</span>
+                        <span class="advantages-title-2 text-color flex flex-direction flex-center-center" id="ad-title-2">Надійність</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts flex flex-direction" data-scroll-index="3">
+            <div class="contacts-title uppercase text-color">
+                <span>Контакти</span>
+            </div>
+            <div class="contacts-info flex">
+                <div class="address-block flex-center-center flex-direction">
+                    <div class="address-text flex">
+                        <div class="section_1 text-color">
+                            <ul>
+                                <!-- <li class="uppercase">Наш офіс:</li> -->
+                                <li><i class="fas fa-map-marker-alt"></i>Адреса офісу: місто Львів, вулиця Стрийська 45ж</li>
+                                <li><i class="fas fa-phone-square-alt"></i>Телефон: +380(67)-715-07-87</li>
+                                <li><i class="fas fa-envelope text-color"></i>Email: galiciasteel2020@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="section_2 text-color">
+                            <ul>
+                                <li class="uppercase">Години роботи:</li>
+                                <li>Пн-Сб: 9:00-18:00</li>
+                                <li>Нд: вихідний</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-block flex-center">
+                    <div class="map"></div>
+                    <div class="section_3 flex-center-center">
+                      <a href="http://www.instagram.com/galicia_steel" target="_blank"><i class="fab fa-instagram text-color"></i></a>
+                      <a href="https://www.facebook.com/GaliciaSteel/" target="_blank"><i class="fab fa-facebook-f text-color"></i></a>
+                      <a href="mailto:galiciasteel2020@gmail.com"><i class="fas fa-envelope text-color"></i></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer flex-center-center">
+            <div>
+                <img src="./img/log-2.4.png" alt="Logo"> 
+            </div>
+            <div class="text-color">
+                <span>&copy;</span>
+                <span>2020</span>
+                <span>Всі права захищені</span>
+                
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="./js/JQuery3.3.1.js"></script>
+
+    <!-- scrollit -->
+    <script src="./js/scrollIt.js" type="text/javascript"></script>
+
+    <!-- lightslider -->
+    <!-- <script src="./js/lightslider.js"></script> -->
+
+    <!-- particles -->
+    <script src="./js/libs/particles.min.js" type="text/javascript"></script>
+    
+    <!-- script -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
